@@ -1,3 +1,57 @@
+
+  .featured-heading-learn, .featured-header, .start-trial-navbar-btn, .link-list__link, .link-list__dropdown-toggle, .request-a-demo, .contact-sales-text, .navbar-small-heading, .navbar-text-heading, .navbar-text-block, .two-minutes-video-text, .video-text-block, .watch-a-demo-text {
+    font-family: 'Source Sans Pro';
+  }
+ 
+ 
+
+	::selection {
+    background: rgb(67, 83, 255);
+    color: white;
+	}
+
+	 a {
+     color: inherit;
+     text-decoration-thickness: 0.1em;
+     text-underline-offset: 0.2em;
+  }
+  
+  a:hover {
+    text-decoration: none;
+	}
+  
+  a:active, a:hover {
+    outline: 0;
+	}
+    
+  @media (min-width: 992px) and (max-width: 1320px) {
+		.navbar__wrapper {
+    	padding: 0px 20px;
+		}
+  }
+  
+  @media (min-width: 992px) and (max-width: 1320px) {
+		.navmenu__dropdown-left {
+    	padding-left: 20px;
+		}
+    
+    .navmenu__dropdown-block {
+    	padding-right: 20px;
+    }
+  }
+
+  
+  .navmenu__dropdown-section-link:hover .navmenu__dropdown-section-link-heading,
+  .navmenu__dropdown-section-link:focus .navmenu__dropdown-section-link-heading,
+  .navmenu__section-link-row:hover .navmenu__dropdown-section-link-heading,
+  .navmenu__section-link-row:focus .navmenu__dropdown-section-link-heading {
+    text-decoration: underline;
+	}
+  @media (max-width: 991px) {
+    .navbar__navmenu {
+      height: calc(100vh - 60px);
+    }
+  }
 @media screen and (max-width: 991px) {
   .wrapper {
     width: auto;
