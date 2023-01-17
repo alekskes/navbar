@@ -18770,27 +18770,7 @@
     border: 1px none #e4e4e4;
   }
 
-  .start-trial-navbar-btn-2 {
-    position: relative;
-    z-index: 1;
-    width: 173px;
-    margin-left: 0px;
-  }
-
-  .start-trial-navbar-btn-2.mobile-get-started-btn {
-    position: relative;
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-  }
-
-  .start-trial-navbar-btn-2.cta-get-started {
-    width: 100%;
-    height: 58px;
-    min-width: 568px;
-  }
-
+ 
   .products-second-div-block-2 {
     display: none;
   }
