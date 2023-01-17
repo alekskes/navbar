@@ -1,9 +1,3 @@
- @media (max-width: 1240px) {
-    .navbar__navmenu {
-      height: calc(100vh - 60px);
-    }
-  }
-
 @media (min-width: 1241px) and (max-width: 1320px) {
 		.navbar__wrapper {
     	padding: 0px 20px;
