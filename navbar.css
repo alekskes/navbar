@@ -1,4 +1,4 @@
- @media (max-width: 1240px) {
+ @media (max-width: 991px) {
     .navbar__navmenu {
       height: calc(100vh - 60px);
     }
