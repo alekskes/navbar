@@ -1,4 +1,26 @@
-@media screen and (max-width: 991px) {
+<style>
+ @media (max-width: 1240px) {
+    .navbar__navmenu {
+      height: calc(100vh - 60px);
+    }
+  }
+  
+@media (min-width: 1241px) and (max-width: 1320px) {
+		.navbar__wrapper {
+    	padding: 0px 20px;
+		}
+  }
+  
+  @media (min-width: 1241px) and (max-width: 1320px) {
+		.navmenu__dropdown-left {
+    	padding-left: 20px;
+		}
+    
+    .navmenu__dropdown-block {
+    	padding-right: 20px;
+    }
+  }
+@media screen and (max-width: 1240px) {
   .wrapper {
     width: auto;
     max-width: 1240px;
@@ -39111,3 +39133,4 @@
     grid-row-end: 3;
   }
 }
+</style>
