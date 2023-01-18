@@ -18761,7 +18761,7 @@
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
-    display: flex;
+    display: none;
   }
 
   .start-trial-navbar-btn-2.cta-get-started {
